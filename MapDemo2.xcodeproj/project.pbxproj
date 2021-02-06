@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		C3973E9225CF0330006382DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3973E9125CF0330006382DA /* AppDelegate.swift */; };
 		C3973E9425CF0330006382DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3973E9325CF0330006382DA /* SceneDelegate.swift */; };
-		C3973E9625CF0330006382DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3973E9525CF0330006382DA /* ViewController.swift */; };
+		C3973E9625CF0330006382DA /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3973E9525CF0330006382DA /* MapViewController.swift */; };
 		C3973E9925CF0330006382DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3973E9725CF0330006382DA /* Main.storyboard */; };
 		C3973E9B25CF0331006382DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3973E9A25CF0331006382DA /* Assets.xcassets */; };
 		C3973E9E25CF0331006382DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3973E9C25CF0331006382DA /* LaunchScreen.storyboard */; };
 		C3973EA925CF0331006382DA /* MapDemo2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3973EA825CF0331006382DA /* MapDemo2Tests.swift */; };
 		C3973EB425CF0331006382DA /* MapDemo2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3973EB325CF0331006382DA /* MapDemo2UITests.swift */; };
+		C3973EC825CF0EAD006382DA /* .gitignore.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C3973EC725CF0EAD006382DA /* .gitignore.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 		C3973E8E25CF0330006382DA /* MapDemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapDemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3973E9125CF0330006382DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3973E9325CF0330006382DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C3973E9525CF0330006382DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3973E9525CF0330006382DA /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		C3973E9825CF0330006382DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3973E9A25CF0331006382DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3973E9D25CF0331006382DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		C3973EAF25CF0331006382DA /* MapDemo2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapDemo2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3973EB325CF0331006382DA /* MapDemo2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDemo2UITests.swift; sourceTree = "<group>"; };
 		C3973EB525CF0331006382DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3973EC725CF0EAD006382DA /* .gitignore.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = .gitignore.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +103,12 @@
 			children = (
 				C3973E9125CF0330006382DA /* AppDelegate.swift */,
 				C3973E9325CF0330006382DA /* SceneDelegate.swift */,
-				C3973E9525CF0330006382DA /* ViewController.swift */,
+				C3973E9525CF0330006382DA /* MapViewController.swift */,
 				C3973E9725CF0330006382DA /* Main.storyboard */,
 				C3973E9A25CF0331006382DA /* Assets.xcassets */,
 				C3973E9C25CF0331006382DA /* LaunchScreen.storyboard */,
 				C3973E9F25CF0331006382DA /* Info.plist */,
+				C3973EC725CF0EAD006382DA /* .gitignore.rtf */,
 			);
 			path = MapDemo2;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			files = (
 				C3973E9E25CF0331006382DA /* LaunchScreen.storyboard in Resources */,
 				C3973E9B25CF0331006382DA /* Assets.xcassets in Resources */,
+				C3973EC825CF0EAD006382DA /* .gitignore.rtf in Resources */,
 				C3973E9925CF0330006382DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3973E9625CF0330006382DA /* ViewController.swift in Sources */,
+				C3973E9625CF0330006382DA /* MapViewController.swift in Sources */,
 				C3973E9225CF0330006382DA /* AppDelegate.swift in Sources */,
 				C3973E9425CF0330006382DA /* SceneDelegate.swift in Sources */,
 			);
